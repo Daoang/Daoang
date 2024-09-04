@@ -1,0 +1,23 @@
+numb1 = int(input("Enter the first number: "))
+numb2 = int(input("Enter the second number: "))
+
+if (numb1 < numb2):
+    print("First number is less than the second number.")
+elif (numb1 == numb2):
+    print("First number and second number are equal.")
+else:
+    print("First number is greater than the second number.")
+
+
+Output:
+
+Enter the first number: 5
+Enter the second number: 7
+First number is less than the second number.
+Enter the first number: 5
+Enter the second number: 5
+First number and second number are equal.
+Enter the first number: 7
+Enter the second number: 4
+First number is greater than the second number.
+
